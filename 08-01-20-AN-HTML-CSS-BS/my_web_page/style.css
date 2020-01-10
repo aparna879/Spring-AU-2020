@@ -1,0 +1,167 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x:hidden;
+}
+
+
+nav a {
+  padding: 0 15px;
+ color :black;
+  margin: 0;
+  text-decoration:none;
+}
+
+nav a:hover {
+padding: 0 20px;
+ color :rgb(180, 170, 156);
+  margin: 10;
+  text-decoration:none;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* #hey {
+	text-decoration : line-through;	
+    font-size: 25px;
+} */
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('img/33.jpg');
+  background-attachment : fixed;
+  background-size: cover;
+  color:rgb(219, 207, 190);
+  height: 740px;
+  width: 100%;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+
+.jumbotron h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  color:rgb(219, 207, 190);
+  text-shadow: 0 2px black;
+}
+
+.jumbotron span {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  color:rgb(219, 207, 190);
+  text-shadow: 0 2px black;
+  
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: rgb(219, 207, 190);
+  font-weight : bold;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  padding-top : 30px;
+  padding-bottom : 30px;
+  border-width : 2px;
+  border-color : white;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  text-shadow: none;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(#fff, #000);
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+div.transbox {
+    margin: 10px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    -webkit-box-align: center;
+}
+
+div.transbox h3 {
+    margin: 0.3%;
+    font-weight: bold;
+    color: #000000;
+    align-content: center;
+    
+}
+
+.blue{
+  color: blue;
+}
+
+.place, .dob, .address, .phone, .email, .gmail, .edu, .skills, .linkedin p {
+  font-weight : bold;
+  font-size : 15px;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight:bold;
+}
+
+   td {
+    text-align: center;
+    padding: 10px;
+    font-size : 20px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.love{
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

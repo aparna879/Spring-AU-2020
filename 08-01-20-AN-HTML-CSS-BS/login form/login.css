@@ -1,0 +1,46 @@
+body::after {
+    content: "";
+    background: url(1.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;  
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; 
+}
+
+.container {
+    padding: 14px;
+}
+
+form {
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 35%;
+}
+
+.nav {
+    background-color:  rgb(100, 0, 62)
+}
+
+input[type=text], input[type=password] {
+    content: "";
+    width: 100%;  
+    display: inline-block;  
+    padding: 10px 20px;
+    margin: 7px 0;
+    border: 1px solid #ffffff;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(100, 0, 62);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
