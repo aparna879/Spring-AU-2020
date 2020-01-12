@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <link rel="stylesheet" href="new.css">
+        <script src="new.js"></script>
+    </head>
+    <body>
+        <nav class="navbar nav">
+            <a class="navbar-brand" href="#">
+                <span style="color: white;">Assignment 4</span>
+            </a>
+        </nav>
+        
+        <form method="post" action="#">
+            <div class="container">
+                <label><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+                <label><b>Country</b></label><br/>
+                <select style="width:100% ;height:40px">
+                    <option value="Select">Select</option>
+                    <option value="INDIA">INDIA</option>
+                    <option value="AFGHANISTAN">AFGHANISTAN</option>
+                    <option value="SRILANKA">SRILANKA</option>
+                    <option value="CANADA">CANADA</option>
+                </select><br/>
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter UserName" name="uname" id="uname" onkeyup= "uname_search();"required>
+                <button type="submit" onclick="sort();">Sort</button>
+            </div>
+        </form>
+        <hr/>
+        <div class="col-sm-6">
+        <h4>List of Username Searched on onblur() event</h4>
+        <p id="u_search" style="font-weight: bold; font-size: 20px;"></p>
+        </div>
+        <hr/>
+        <div class="col-sm-6">
+        <h4>Sorted List</h4>
+        <p id="sorted_list" style="font-weight: bold; font-size: 20px;"></p>
+        </div>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </body>
+</html>

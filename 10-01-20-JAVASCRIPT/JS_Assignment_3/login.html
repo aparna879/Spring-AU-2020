@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assigment 3</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <nav class="navbar nav">
+            <a class="navbar-brand" href="#">
+                <span style="color: white;">Login Form</span>
+            </a>
+        </nav>
+        
+        <form>
+            <div class="container">
+                <label><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" id ="email" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="pass" required>
+                <label><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" id ="c_pass" required>
+                <label>
+                    <input type="checkbox" name="remember" checked="checked"> Remember me
+                </label>
+                <button type="submit" onclick= "validate();">Login</button>
+            </div>
+        </form>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </body>
+</html>
