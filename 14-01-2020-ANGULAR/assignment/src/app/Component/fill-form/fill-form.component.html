@@ -1,0 +1,22 @@
+<h1>Fill Form</h1>
+
+<form [formGroup]="profileForm">
+    <label>
+        Email:
+        <input type="text" formControlName="email">
+    </label>
+    <br/><br/>
+    <label>
+        Name:
+        <input type="text" formControlName="name">
+    </label>
+    <br/><br/>
+    <label>
+        Phone(required):
+        <input type="text" formControlName="phone">
+    </label>
+    <br/><br/>
+    <button type="submit" [disabled]="!profileForm.valid" (click)="pass()">Submit</button>
+
+</form>
+
