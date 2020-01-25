@@ -1,0 +1,7 @@
+application:
+  name: springassAOP
+  package: com.springau.springassAOP
+spring:
+  application:
+    name: ${application.name}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+           
+           <bean id="name1" class="com.springau.springass1.models.StudentName">
+           		<constructor-arg value="Aparna" type="String"></constructor-arg>
+           		<constructor-arg value="Singhal" type="String"></constructor-arg>           
+           </bean>
+           
+           <bean id="name2" class="com.springau.springass1.models.StudentName">
+           		<constructor-arg value="Riza" type="String"></constructor-arg>
+           		<constructor-arg value="Bansal" type="String"></constructor-arg>           
+           </bean>
+           
+            <bean id="name3" class="com.springau.springass1.models.StudentName">
+           		<constructor-arg value="Rameez" type="String"></constructor-arg>
+           		<constructor-arg value="Ahmad" type="String"></constructor-arg>           
+           </bean>
+           
+           <bean id="student" class="com.springau.springass1.models.StudentManager">
+				<constructor-arg>
+				    <map>
+					    <entry key="1" value-ref="name1"/>
+					    <entry key="2" value-ref="name2"/>
+					    <entry key="3" value-ref="name3"/>
+				    </map>
+			    </constructor-arg>         
+           </bean>
+           
+
+    
+ </beans>
