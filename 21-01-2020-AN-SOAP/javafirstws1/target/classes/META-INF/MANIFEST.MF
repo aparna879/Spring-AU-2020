@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: aparna879
+Build-Jdk: 11.0.5
+Implementation-Title: javafirstws
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.bharath.ws.soap
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/javafirstws/
+Created-By: Maven Integration for Eclipse
+
