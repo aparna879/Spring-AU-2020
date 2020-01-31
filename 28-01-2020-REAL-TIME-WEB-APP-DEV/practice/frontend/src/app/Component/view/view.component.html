@@ -1,0 +1,14 @@
+<p>view works!</p>
+
+<table *ngIf="details">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Branch</th>
+    </tr>
+    <tr *ngFor="let detail of details">
+        <td>{{ detail.id}}</td>
+        <td>{{ detail.name}}</td>
+        <td>{{ detail.branch}}</td>
+    </tr>
+</table>

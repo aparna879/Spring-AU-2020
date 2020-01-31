@@ -1,0 +1,21 @@
+<p>form works!</p>
+
+<form [formGroup]="profileForm">
+    <label>
+        Id:
+        <input type="text" formControlName="id">
+    </label>
+    <br/><br/>
+    <label>
+        Name:
+        <input type="text" formControlName="name">
+    </label>
+    <br/><br/>
+    <label>
+        Branch:
+        <input type="text" formControlName="branch">
+    </label>
+    <br/><br/>
+    <button type="submit" (click)="addData()">Submit</button>
+
+</form>
